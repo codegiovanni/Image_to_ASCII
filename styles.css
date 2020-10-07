@@ -104,7 +104,7 @@ transition: all 0.5s ease 0s;
 
 .button.style1:hover {
   color: #ffffff !important;
-  background: var(--secondColor);
+  background: var(--thirdColor);
   border-color: var(--secondColor) !important;
   border-radius: 20px;
   transition: all 0.5s ease 0s;
