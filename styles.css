@@ -83,12 +83,12 @@ body {
   color: var(--mainColor) !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #ffffff;
+  background: #20bf6b;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 1px solid var(--mainColor) !important;
-  display: inline-block;
+/*   border: 1px solid var(--mainColor) !important; */
+/*   display: inline-block; */
   transition: all 0.5s ease 0s;
 }
 
