@@ -6,7 +6,7 @@ chars = " .'`^\",:;Il!i><~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$
 char_width = 18
 char_height = 18
 
-img = Image.open('halloween.jpg')
+img = Image.open('enter_name.jpg')
 
 WIDTH, HEIGHT = img.size
 img = img.resize((int(WIDTH / char_width), int(HEIGHT / char_height)), Image.NEAREST)
@@ -30,5 +30,5 @@ for i in range(height):
         k = int((r + g + b) / 3)
         d.text((j * char_width, i * char_height), getChar(k), font=fnt, fill=(r, g, b))
 
-ascii_img.save('ascii_halloween.png')
+ascii_img.save('enter_output_name.png')
 
