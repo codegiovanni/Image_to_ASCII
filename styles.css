@@ -67,8 +67,6 @@ body {
 }
 
 .container h4{
-  /* max-width: 100vw; */
-  /* font-size: 60%; */
   margin-top: 3px;
   margin-bottom: 8px;
   color: #444444;
@@ -81,17 +79,17 @@ body {
 }
 
 .button {
-font-size: 11px;
-color: var(--mainColor) !important;
-text-transform: uppercase;
-text-decoration: none;
-background: #ffffff;
-padding: 5px;
-padding-left: 10px;
-padding-right: 10px;
-border: 1px solid var(--mainColor) !important;
-display: inline-block;
-transition: all 0.5s ease 0s;
+  font-size: 11px;
+  color: var(--mainColor) !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid var(--mainColor) !important;
+  display: inline-block;
+  transition: all 0.5s ease 0s;
 }
 
 .button:hover {
@@ -105,7 +103,7 @@ transition: all 0.5s ease 0s;
 .button.style1:hover {
   color: #ffffff !important;
   background: var(--thirdColor);
-  border-color: var(--secondColor) !important;
+  border-color: var(--thirdColor) !important;
   border-radius: 20px;
   transition: all 0.5s ease 0s;
 }
